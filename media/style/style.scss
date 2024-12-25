@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "CIRCE-REG";
+    src: url("../fonts/CIRCE.TTF");
+}
+@font-face {
+    font-family: "CIRCE-BOLD";
+    src: url("../fonts/CIRCE-BOLD.TTF") format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: CIRCE-REG;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --h1: 4rem;
+    --h2: 2.7rem;
+    --title: 1.7rem;
+    --text: 1rem;
+
+    --color-1: #fff;
+    --color-2: #161616;
+    --color-3: #189ec0;
+    --color-4: #1d1d1d;
+    
+    --gap-spaceing: 20px;
+    --page-padding: 0 15px;
+    --button-padding: 10px 20px;
+
+    @media (max-width: 800px) {
+        --h1: 2.7rem;
+        --h2: 2rem;
+        --title: 1.3rem;
+        --text: .900rem;
+    }
+}
+
+
+body {
+    background: var(--color-4);
+}
+
+main {
+    min-height: 100vh;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    color: var(--color-1);
+    background-color: var(--color-3);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: var(--text);
+}
+
+.aside {
+    background-color: #161616;
+    width: 100%;
+    padding: 20px;
+    .aside__item {
+        .aside__item-p{
+            text-align: center;
+            color: var(--color-3);
+        }
+    }
+}

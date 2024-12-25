@@ -1,0 +1,39 @@
+.main {
+  padding: 0 40px;
+}
+.main .main-h1 {
+  color: var(--color-3);
+  font-size: var(--h1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.main .form {
+  width: 40%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 1100px) {
+  .main .form {
+    width: 100%;
+  }
+}
+.main .form .form-input {
+  border: 1px solid var(--color-3);
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--color-1);
+  background-color: var(--color-4);
+  width: 100%;
+  font-size: var(--text);
+}
+.main .form .form-select {
+  border: 1px solid var(--color-3);
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--color-1);
+  background-color: var(--color-4);
+  width: 100%;
+  font-size: var(--text);
+}/*# sourceMappingURL=account.css.map */

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <link rel="stylesheet" href="./media/style/style.css">
+    <link rel="icon" href="./media/img/base/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./media/style/header.css">
+    <link rel="stylesheet" href="./media/style/footer.css">
+    <link rel="stylesheet" href="./media/style/account.css">
+    <title>Моя семья - мой космос</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__item">
+            <a href="index.html"><img src="./media/img/base/logo.svg" alt="Логотип" class="header__item-img"></a>
+            <nav class="header__item-nav">
+                <a href="index.html" class="nav-link">Выход</a>
+                <a href="index.html#auth" class="nav-link">Авторизация</a>
+                <a href="account.html" class="nav-link">Личный кабинет</a>
+                <a href="index.html#about" class="nav-link">О нас</a>
+                <a href="schedule.html" class="nav-link">Конкурсы</a>
+                <a href="index.html#search" class="nav-link">Поиск</a>
+                <a href="#footer" class="nav-link">Контакты</a>
+                <a href="index-light.html"><img class="nav-button" src="./media/img/base/dark-theme.svg" alt="Тёмная тема"></a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="main-h1">Записаться на конкурс</h1>
+        <form action="" class="form">
+            <select class="form-select" required>
+                <option value="1">Галактический смех</option>
+                <option value="2">Танцевальный поединок пришельцев</option>
+                <option value="3">Звездный рассказ</option>
+                <option value="4">Марсианский тик-так-бум</option>
+                <option value="5">Космический кулинарный конкурс</option>
+            </select>
+            <input class="form-input" type="date" required min="2024-07-08" max="2024-07-08">
+            <input class="form-input" type="time" required min="09:00" max="21:00">
+            <input class="form-input" type="number" placeholder="Количество человек" required min="0">
+            <input type="submit" value="Записаться" class="button"/>
+        </form>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__item">
+            <div class="footer__item-links">
+                <a href="tel:+7 (4842) 23-45-67">Телефон “+7 (4842) 23-45-67”</a>
+                <a href="mailto:family@cosmos.ru">e-mail: family@cosmos.ru</a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="index-light.html" class="nav-link">Главная-светлая</a>
+                <a href="registration.html" class="nav-link">Регистрация</a>
+                <a href="competition.html" class="nav-link">Конкурс</a>
+                <a href="account.html" class="nav-link">Личный кабинет</a>
+                <a href="404.html" class="nav-link">Страница не найдена</a>
+            </nav>
+        </div>
+    </footer>
+    <aside class="aside">
+        <div class="aside__item">
+            <p class="aside__item-p">Разработано © OuTouch</p>
+        </div>
+    </aside>
+
+</body>
+
+</html>

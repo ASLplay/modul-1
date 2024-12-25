@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  padding: 20px 40px;
+  background: var(--color-2);
+}
+.footer .footer__item {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer__item .footer__item-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer__item .footer__item-links a {
+  color: var(--color-1);
+  font-size: var(--text);
+}
+.footer .footer__item .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer__item .nav .nav-link {
+  color: var(--color-1);
+  font-size: var(--text);
+}/*# sourceMappingURL=footer.css.map */

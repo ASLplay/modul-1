@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <link rel="stylesheet" href="./media/style/style.css">
+    <link rel="icon" href="./media/img/base/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./media/style/header.css">
+    <link rel="stylesheet" href="./media/style/footer.css">
+    <link rel="stylesheet" href="./media/style/index.css">
+    <title>Моя семья - мой космос</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__item">
+            <a href="index.html"><img src="./media/img/base/logo.svg" alt="Логотип" class="header__item-img"></a>
+            <nav class="header__item-nav">
+                <a href="registration.html" class="nav-link">Регистрация</a>
+                <a href="index.html#auth" class="nav-link">Авторизация</a>
+                <a href="account.html" class="nav-link">Личный кабинет</a>
+                <a href="index.html#about" class="nav-link">О нас</a>
+                <a href="schedule.html" class="nav-link">Конкурсы</a>
+                <a href="index.html#search" class="nav-link">Поиск</a>
+                <a href="#footer" class="nav-link">Контакты</a>
+                <a href="index-light.html"><img class="nav-button" src="./media/img/base/dark-theme.svg" alt="Тёмная тема"></a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="slider">
+            <h2>Наиболее популярные конкурсы</h2>
+            <div class="slider__item">
+                <img src="./media/img/other/img1.png" alt="popular" class="slider__item-img">
+                <div class="info">
+                    <div class="slide">
+                        <div class="slide-dot"></div>
+                        <div class="slide-dot"></div>
+                        <div class="slide-dot"></div>
+                        <div class="slide-dot"></div>
+                        <div class="slide-dot"></div>
+                        <img class="next-slide" alt="Стрелка" src="./media/img/other/arrow.svg">
+                    </div>
+                    <p class="info-p">Путь родителей. В рамках конкурса дети будут пробовать себя в различных
+                        профессиях, которые есть в их семье. Это отличный способ не только расширить кругозор, но и
+                        лучше понять, как работают разные специальности, а также ощутить гордость за достижения своих
+                        родных.</p>
+                    <div class="rate">
+                        <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                        <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                        <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                        <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                        <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                    </div>
+                    <button class="button">Подробнее</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="auth" class="auth">
+            <h2>Авторизация</h2>
+            <div class="auth__item">
+                <form action="" class="form">
+                    <input placeholder="E-mail" type="email" class="auth__item-input" required>
+                    <input placeholder="Пароль" type="password" class="auth__item-input" required>
+                    <a href="#" class="auth__item-link">Восстановление пароля</a>
+                    <input type="submit" value="Войти" class="button"></input>
+                </form>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <h2>О нас</h2>
+            <div class="about__item">
+                <p class="info">Сообщество любителей космоса – это уникальное пространство для тех, кто
+                    увлечен изучением космических просторов и хочет делиться своими знаниями и идеями с
+                    единомышленниками. Мы проводим регулярные встречи, на которых обсуждаем последние новости из мира
+                    астрономии и космонавтики, делимся интересными фактами и теориями, смотрим тематические фильмы и
+                    организуем экскурсии в планетарии. Здесь можно обсудить последние космические открытия, узнать о
+                    космических миссиях и просто погрузиться в бескрайние просторы Вселенной. А ещё у нас есть
+                    настольные игры про космос, сладости в виде планет и суперкомпьютер для симуляции полёта в другую
+                    галактику. Наша цель – создать дружественную атмосферу, где каждый может чувствовать себя комфортно
+                    и свободно выражать свои мысли. Если вы тоже любите космос и хотите стать частью нашего сообщества,
+                    присоединяйтесь к нам! </p>
+                <img src="./media/img/other/about.jpg" alt="О нас" class="about__item-img">
+            </div>
+        </div>
+
+        <div class="hello">
+            <h2>Пиветсвие</h2>
+            <div class="hello__item">
+                <video src="./media/video/hello.mp4" controls class="hello__item-video"></video>
+            </div>
+        </div>
+
+        <div class="competitions">
+            <h2>Конкурсы</h2>
+            <div class="competitions__item">
+                <div class="cards">
+                    <div class="card">
+                        <img src="./media/img/other/cmp1.jpg" alt="Конкурс" class="card-img">
+                        <p class="info-title">Галактический смех</p>
+                        <div class="rate">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                        </div>
+                        <p class="info-p">Цель: рассказать самую интересную и захватывающую историю, связанную с
+                            космосом. Как играть: каждая семья по очереди должна рассказать свою историю, используя свои
+                            лучшие навыки рассказчика. Судьи оценивают истории по таким критериям, как оригинальность,
+                            сюжет и способность захватить внимание аудитории. Призы: титул "Лучший рассказчик в
+                            галактике", а также призы, такие как книги или журналы о космосе. </p>
+                        <p class="info-p">Записались: 21</p>
+                        <a href="./competition.html" class="button">Подробнее</a>
+                    </div>
+                    <div class="card">
+                        <img src="./media/img/other/cmp2.jpg" alt="Конкурс" class="card-img">
+                        <p class="info-title">Танцевальный поединок пришельцев</p>
+                        <div class="rate">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                        </div>
+                        <p class="info-p">Цель: показать свои лучшие танцевальные шаги и выиграть титул "Лучший танцор
+                            из другой планеты". Как играть: каждая семья по очереди должна исполнить свой танец,
+                            используя музыку и костюмы, вдохновленные космосом. Судьи оценивают танцы по таким
+                            критериям, как оригинальность, техника и общий вид. Призы: титул "Лучший танцор из другой
+                            планеты", а также призы, такие как танцевальные аксессуары или уроки танцев.</p>
+                        <p class="info-p">Записались: 7</p>
+                        <a href="./competition.html" class="button">Подробнее</a>
+                    </div>
+                    <div class="card">
+                        <img src="./media/img/other/cmp3.jpg" alt="Конкурс" class="card-img">
+                        <p class="info-title">Звездный рассказ</p>
+                        <div class="rate">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                        </div>
+                        <p class="info-p">Цель: заставить других семей рассмеяться и выиграть титул "Самая смешная семья
+                            в галактике". Как играть: каждая семья по очереди должна рассказать анекдот, шутку или
+                            историю, которая, по их мнению, является самой смешной. Судьи оценивают шутки по таким
+                            критериям, как оригинальность, юмор и способность вызвать смех у других. Призы: титул "Самая
+                            смешная семья в галактике", а также призы, такие как конфеты или небольшие игрушки. </p>
+                        <p class="info-p">Записались: 17</p>
+                        <a href="./competition.html" class="button">Подробнее</a>
+                    </div>
+                    <div class="card">
+                        <img src="./media/img/other/cmp4.jpg" alt="Конкурс" class="card-img">
+                        <p class="info-title">Марсианский тик-так-бум</p>
+                        <div class="rate">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                        </div>
+                        <p class="info-p">Участники рассаживаются в круг. Ведущий начинает задавать быстрые вопросы на космическую тематику, например: "Как называется спутник Марса?", "Какой газ преобладает в атмосфере Венеры?". Игроки по очереди отвечают, передавая мяч по кругу. Если кто-то не успевает ответить за 3 секунды или дает неправильный ответ, он выбывает из игры. Победителем становится последний оставшийся игрок. </p>
+                        <p class="info-p">Записались: 5</p>
+                        <a href="./competition.html" class="button">Подробнее</a>
+                    </div>
+                    <div class="card">
+                        <img src="./media/img/other/cmp5.jpg" alt="Конкурс" class="card-img">
+                        <p class="info-title">Космический кулинарный конкурс</p>
+                        <div class="rate">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star1.svg" alt="Звезда" class="star">
+                            <img src="./media/img/other/star2.svg" alt="Звезда" class="star">
+                        </div>
+                        <p class="info-p">Цель: приготовить самое вкусное и оригинальное блюдо, вдохновленное космосом. Как играть: каждая семья должна приготовить свое блюдо, используя ингредиенты и рецепты, вдохновленные космосом. Судьи оценивают блюда по таким критериям, как вкус, оригинальность и внешний вид. Призы: титул "Космический шеф-повар", а также призы, такие как книги рецептов или кухонные аксессуары.</p>
+                        <p class="info-p">Записались: 12</p>
+                        <a href="./competition.html" class="button">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search" id="search">
+            <h2>Поиск</h2>
+            <div class="search__item">
+                <input class="search__item-input" type="text">
+                <button class="search__item-button button">Поиск</button>
+            </div>
+        </div>
+
+        <div class="feedback">
+            <h2>Отзывы</h2>
+            <div class="feedback__item">
+                <div class="cards">
+                    <div class="card">
+                        <img src="./media/img/other/person1.jpg" alt="Автор" class="card-img">
+                        <p class="card-title">Илья</p>
+                        <p class="card-p">Признаюсь, сначала я немного скептически отнесся к идее космического
+                            праздника. Но в итоге, когда мы приехали, мое мнение кардинально изменилось! Организаторы
+                            продумали
+                            каждую деталь - от декораций до интерактивных развлечений. Особенно запомнился запуск
+                            бумажных
+                            ракет, в котором мы с Димой с азартом участвовали. Сын был в восторге, да и я сам
+                            почувствовал себя
+                            ребенком, увлеченным космическими приключениями. Спасибо за отличный семейный праздник! </p>
+                        <p class="card-p">21.06.2024</p>
+                        <a href="#" class="button">Конкурс</a>
+                    </div>
+                    <div class="card">
+                        <img src="./media/img/other/person2.jpg" alt="Автор" class="card-img">
+                        <p class="card-title">Сабина</p>
+                        <p class="card-p">Я очень благодарна организаторам за такое интересное и насыщенное мероприятие!
+                            Катя просто сияла от восторга на протяжении всего праздника. Ей особенно понравилось
+                            рисовать космические корабли и участвовать в конкурсе на лучший космический наряд. Я была
+                            приятно удивлена, что здесь было предусмотрено развлечение для детей разных возрастов. Даже
+                            я, будучи человеком старшего поколения, открыла для себя много нового и интересного о
+                            космосе. Спасибо за возможность провести такой замечательный день всей семьей! </p>
+                        <p class="card-p">21.06.2024</p>
+                        <a href="#" class="button">Конкурс</a>
+                    </div>
+                    <div class="card">
+                        <img src="./media/img/other/person3.jpg" alt="Автор" class="card-img">
+                        <p class="card-title">Николай</p>
+                        <p class="card-p"> Это был настоящий космический праздник для всей нашей семьи! Мои дети,
+                            5-летние Саша и Даша, просто не могли нарадоваться всем развлечениям и активностям. Им
+                            особенно запомнились мастер-класс по созданию ракет и викторина, в которой они с азартом
+                            отвечали на вопросы о космосе. Но самым ярким моментом для них стал, конечно же, запуск
+                            воздушных шаров в виде планет. Мы до сих пор хвастаемся друзьям и родственникам этими
+                            красочными фотографиями. Спасибо за незабываемые впечатления и возможность весело и
+                            познавательно провести время всей семьей!</p>
+                        <p class="card-p">21.06.2024</p>
+                        <a href="#" class="button">Конкурс</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-dot"></div>
+                    <div class="slide-dot"></div>
+                    <div class="slide-dot"></div>
+                    <div class="slide-dot"></div>
+                    <div class="slide-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribe">
+            <h2>Подписка на новости</h2>
+            <div class="subscribe__item">
+                <form action="" class="form">
+                    <input class="subscribe__item-input" type="email" placeholder="E-mail" required>
+                    <div class="checkbox">
+                        <input class="chekbox-input" type="checkbox" required>
+                        <p class="checkbox-p">Подтверждаю согласие на обработку персональных данных</p>
+
+                    </div>
+                    <input type="submit" value="Подписаться" class="button"></input>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__item">
+            <div class="footer__item-links">
+                <a href="tel:+7 (4842) 23-45-67">Телефон “+7 (4842) 23-45-67”</a>
+                <a href="mailto:family@cosmos.ru">e-mail: family@cosmos.ru</a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="index-light.html" class="nav-link">Главная-светлая</a>
+                <a href="registration.html" class="nav-link">Регистрация</a>
+                <a href="competition.html" class="nav-link">Конкурс</a>
+                <a href="account.html" class="nav-link">Личный кабинет</a>
+                <a href="404.html" class="nav-link">Страница не найдена</a>
+            </nav>
+        </div>
+    </footer>
+
+    <aside class="aside">
+        <div class="aside__item">
+            <p class="aside__item-p">Разработано © OuTouch</p>
+        </div>
+    </aside>
+
+</body>
+
+</html>

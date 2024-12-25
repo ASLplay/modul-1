@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .banner {
+  width: 60%;
+  padding-bottom: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main .banner .error .error-h1 {
+  font-size: var(--h1);
+  color: var(--color-3);
+}
+.main .banner .error__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .banner .error__info .error__info-p {
+  font-size: var(--text);
+  color: var(--color-1);
+}/*# sourceMappingURL=404.css.map */

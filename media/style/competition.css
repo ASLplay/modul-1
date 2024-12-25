@@ -1,0 +1,56 @@
+main {
+  padding: 0 40px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px auto;
+}
+main .competition h1 {
+  color: var(--color-3);
+  font-size: var(--h1);
+}
+main .competition .competition__item {
+  display: grid;
+  grid-template: auto auto/repeat(2, 1fr);
+  gap: 40px;
+}
+@media (max-width: 1100px) {
+  main .competition .competition__item {
+    grid-template: auto auto/repeat(1, 1fr);
+  }
+}
+main .competition .competition__item .card-img {
+  border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main .competition .competition__item .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .competition .competition__item .info .info-title {
+  font-size: var(--title);
+  color: var(--color-1);
+}
+main .competition .competition__item .info .info-p {
+  font-size: var(--text);
+  color: var(--color-1);
+}
+main .competition .competition__item .info .rate {
+  display: flex;
+  gap: 5px;
+}
+main .competition .competition__item .info .rate .star {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}/*# sourceMappingURL=competition.css.map */
